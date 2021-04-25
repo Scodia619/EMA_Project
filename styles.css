@@ -1,0 +1,83 @@
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:black;
+    color:white;
+    text-align: center;
+    width: 30%;
+    height: 30%;
+}
+
+#addManage{
+    height: 40%;
+}
+
+#news{
+}
+.buttons button{
+    width: 80%;
+    height: 3.5em;
+    margin: 0.25em;
+    display: inline-block;
+    
+}
+
+.txtbox{
+    width: 75%;
+}
+
+.navbar{
+    background: black;
+    margin: 0;
+    padding: 0;
+    height: 4em;
+}
+
+.navbar button{
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    width: 25%;
+    height: 50%;
+    float: left;
+    background-color: green;
+    color:white;
+}
+
+.navbar button:hover{
+    color:black;
+    font-weight: bold;
+}
+
+#current{
+    background-color: red;
+}
+
+.switchbtns button{
+    align-items: center;
+    justify-content: center;
+    width:50%;
+    float:left;
+}
+
+.container{
+    position: relative;
+}
+
+#add{
+    visibility: visible;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 8%);
+}
+
+#edit{
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 5%);
+}

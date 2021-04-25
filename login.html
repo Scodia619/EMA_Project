@@ -3,10 +3,21 @@
 
 <head>
 <title>Admin Login Page</title>
-<link rel="">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
 </head>
 
 <body>
+
+    <div class="main">
+        <h1>Login</h1>
+        <form id="loginform" action="login.php" method="post">
+            Email: <br> <input class="txtbox" type="text" name="email"><br><br>
+            Password: <br> <input class="txtbox" id="pass" type="password" name="email"><br><br>
+            Show Password<input type="checkbox" onclick="showPass()"><br><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
 
 </body>
 

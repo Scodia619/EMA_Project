@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Event Management</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    
+    <body>
+        
+        <div class="navbar">
+            <a href="eventManage.html"><button type=button id="current"> Event Management</button></a>
+            <a href="memberManage.html"><button type=button> Member Management</button></a>
+            <a href="news.html"><button type=button>News Creation</button></a>
+            <a href="announcements.html"><button type=button>Announcements</button></a>
+        </div>
+        <div class="main" id="addManage">
+            <div class="switchbtns">
+                <button type="button" onclick="add()">Add Walk</button>
+                <button type="button" onclick="edit()">Edit Walk</button>
+            </div>
+            <div class="container">
+                <div id="add">
+                    <form action="addEvent.php" id="addEvent"></form>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name"/><br>
+                    <label for="date">Date</label><br>
+                    <input type="text" name="date"/><br>
+                    <label for="startTime">Start Time</label><br>
+                    <input type="text" name="startTime"/><br>
+                    <label for="meetingPoint">Meeting Point</label><br>
+                    <input type="text" name="meetingPoint"/><br>
+                    <label for="Distance">Distance</label><br>
+                    <input type="text" name="name"/><br>
+                    <label for="Notes">Notes</label><br>
+                    <input type="text" name="name"/><br>
+                    <label for="Status">Status</label><br>
+                    <input type="text" name="name"/><br><br>
+                    <input type="submit" name="add" value="Add Walk"/>
+                </div>
+                <div id="edit">
+                    <form action="searchEvent.php">
+                        <label><b>Search</b></label><br>
+                        <label for="name">Name:</label><br>
+                        <input type="text" name="name"/><br>
+                        <label for="date">Date:</label><br>
+                        <input type="text" name="date"/><br><br>
+                        <input type="submit" name="add" value="Search"/><br><br><hr>
+                    </form>
+                    <form action="addEvent.php"></form>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name"/><br>
+                    <label for="date">Date</label><br>
+                    <input type="text" name="date"/><br>
+                    <label for="startTime">Start Time</label><br>
+                    <input type="text" name="startTime"/><br>
+                    <label for="meetingPoint">Meeting Point</label><br>
+                    <input type="text" name="meetingPoint"/><br>
+                    <label for="Distance">Distance</label><br>
+                    <input type="text" name="name"/><br>
+                    <label for="Notes">Notes</label><br>
+                    <input type="text" name="name"/><br>
+                    <label for="Status">Status</label><br>
+                    <input type="text" name="name"/><br><br>
+                    <input type="submit" name="add" value="Edit Walk"/>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    
+</html>

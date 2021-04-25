@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Member Management</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    
+    <body>
+        
+        <div class="navbar">
+            <a href="eventManage.html"><button type=button> Event Management</button></a>
+            <a href="memberManage.html"><button type=button id="current"> Member Management</button></a>
+            <a href="news.html"><button type=button>News Creation</button></a>
+            <a href="announcements.html"><button type=button>Announcements</button></a>
+        </div>
+        
+        <div class="main">
+            <form action="member.php">
+            <label><b>Member Mangement</b></label><br>
+            <label>Firstname</label><br>
+            <input type="text" name="firstname"/><br>
+            <label>Surname</label><br>
+            <input type="text" name="surname"/><br>
+            <label>Email</label><br>
+            <input type="text" name="email"/><br>
+            <label>Opted For Emails</label><br>
+            <input type="text" name="optin"/><br>
+            <label>Admin</label><br>
+            <input type="text" name="admin"/><br>
+            <label>Active</label><br>
+            <input type="text" name="active"/><br>
+            <label>Approved Member</label><br>
+            <input type="text" name="approved"/><br>
+            <input type="button" class="navigator" name="save" value="<">
+            <input type="button" class="navigator" name="reject" value=">"><br><br>
+            <input type="button" name="save" value="Save">
+            <input type="button" name="reject" value="Reject">
+        </form>
+        </div>
+        
+    </body>
+    
+</html>
