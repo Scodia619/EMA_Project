@@ -15,7 +15,15 @@
 }
 
 #news{
+    height: 9.5em;
+    width: 80%;
+    overflow-wrap: break-word;
 }
+
+#newsAdd{
+    height: 33%;
+}
+
 .buttons button{
     width: 80%;
     height: 3.5em;
@@ -24,7 +32,11 @@
     
 }
 
-.txtbox{
+#member{
+    height: 45%;
+}
+
+input[type="text"]{
     width: 75%;
 }
 
@@ -80,4 +92,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, 5%);
+}
+
+.navigator{
+    width:45%;
+    margin-left: 1.25em;
+    float: left;
+}
+
+#load{
+    width:92.8%;
+    margin-right: 0.7em;
 }

@@ -11,18 +11,18 @@
         
         <div class="navbar">
             <a href="eventManage.html"><button type=button> Event Management</button></a>
-            <a href="memberManage.html"><button type=button id="current"> Member Management</button></a>
+            <a href="memberManage.html"><button type=button> Member Management</button></a>
             <a href="news.html"><button type=button>News Creation</button></a>
-            <a href="announcements.html"><button type=button>Announcements</button></a>
+            <a href="announcements.html"><button type=button id="current">Announcements</button></a>
         </div>
         
         <div class="main" id="newsAdd">
             <h1>Announcements</h1>
             <form action="newsadd.php">
                 <label>Content</label><br>
-                <input type="text" name="announcement" id="news" /><br><br>
+                <textarea name="content" id="news" placeholder="Insert Announcements Here...."></textarea><br><br>
                 <input type="button" value="Select Attachment"/><br><br>
-                <input type="button" value="Add"/>
+                <input type="button" value="Send"/>
             </form>
         </div>
         

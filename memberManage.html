@@ -16,7 +16,7 @@
             <a href="announcements.html"><button type=button>Announcements</button></a>
         </div>
         
-        <div class="main">
+        <div class="main" id="member">
             <form action="member.php">
             <label><b>Member Mangement</b></label><br>
             <label>Firstname</label><br>
@@ -32,11 +32,12 @@
             <label>Active</label><br>
             <input type="text" name="active"/><br>
             <label>Approved Member</label><br>
-            <input type="text" name="approved"/><br>
+            <input type="text" name="approved"/><br><br>
             <input type="button" class="navigator" name="save" value="<">
             <input type="button" class="navigator" name="reject" value=">"><br><br>
-            <input type="button" name="save" value="Save">
-            <input type="button" name="reject" value="Reject">
+            <input type="button" id="load" name="load" value="Load"><br><br>
+            <input type="button" class="navigator" name="save" value="Save">
+            <input type="button" class="navigator" name="reject" value="Reject">
         </form>
         </div>
         
